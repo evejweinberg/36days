@@ -5,39 +5,27 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-    <p>Type a message to a friend</p>
+    <div class="page">
+      <textarea id="input" class="input" type="text" placeholder="Type a message to a friend..."></textarea>
 
-    <p class="typefield">
-      <input type="text" id="write">
-    </p>
+      <canvas id="canvas" class="canvas"></canvas>
 
-    <div id="images-placeholder">
-      <img id="test-image" src="img/test.jpg">
+      <p>
+        <img class="icon icon--fb" src="img/fb.png" />
+        <img class="icon icon--t" src="img/t.png" />
+        <img class="icon icon--ig" src="img/ig.png" />
+        <img class="icon icon--email" src="img/email.png" />
+      </p>
+
+      <p class="attribution">
+        <a href="http://www.36daysoftype.com/">All images came from 36daysoftype</a>
+      </p>
+
+      <script src="js/html2canvas.js"></script>
+      <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+
+      <script src="js/letter-images.js"></script>
+      <script src="js/main.js"></script>
     </div>
-
-    </br></br></br>
-
-    <p>Send it!</p>
-
-    </br>
-
-    <p>
-      <img class="icon icon--fb" src="img/fb.png" />
-      <img class="icon icon--t" src="img/t.png" />
-      <img class="icon icon--ig" src="img/ig.png" />
-      <img class="icon icon--email" src="img/email.png" />
-    </p>
-
-    <p>
-      </br></br></br><a href="http://www.36daysoftype.com/">All images came from 36daysoftype</a>
-    </p>
-
-
-  	<script src="js/html2canvas.js"></script>
-    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-
-  	<script src="js/letter-images.js"></script>
-    <script src="js/main.js"></script>
-
   </body>
 </html>
