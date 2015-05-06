@@ -1,0 +1,144 @@
+html, body {
+  background-color: #0000bf;
+  font-family: arial,helvetica,sans-serif;
+}
+body {
+  padding-bottom: 150px;
+  text-align: center;
+}
+img {
+  width: 150px;
+  margin-right:0px;
+  margin-bottom: 10px;
+}
+p {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+a, a:hover, a:visited, a:active {
+  color: #fff;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+table {
+  white-space: normal;
+  line-height: normal;
+  font-weight: normal;
+  font-size: medium;
+  font-variant: normal;
+  font-style: normal;
+  color: -webkit-text;
+  text-align: start;
+}
+link {
+  display: none;
+}
+
+.input {
+  display: block;
+  width: 430px;
+  margin: 30px auto 45px;
+  font-size: 32px;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: #0000bf;
+  color: #fff;
+  text-align: left;
+  resize: none;
+  height: 45px;
+  line-height: 45px;
+}
+
+.input::-webkit-input-placeholder {
+  color: #fff;
+  opacity: .25;
+}
+
+.canvas {
+  margin: 0 auto;
+}
+
+.bottom-panel {
+  background: #0000bf;
+  position: fixed;
+  bottom: -80px;
+  left: 0;
+  height: 80px;
+  width: 100%;
+  -webkit-transition: bottom 0.1s linear;
+}
+
+.has-text .bottom-panel {
+  bottom: 0px;
+}
+
+.settings-field {
+  display: block;
+  float: left;
+  margin-right: 15px;
+  text-align: left;
+  color: #fff;
+  padding: 15px;
+}
+
+.settings-field label {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.settings-field input {
+  background: none;
+  outline: none;
+  border: 2px solid #fff;
+  font-size: 14px;
+  padding: 5px;
+  width: 50px;
+  color: #fff;
+}
+
+.download-button {
+  font-size: 22px;
+  line-height: 24px;
+  color: #fff;
+  border: 3px solid #fff;
+  padding: 10px 20px;
+  float: right;
+  display: block;
+  margin: 15px 15px 0 0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a.download-button:hover {
+  text-decoration: none;
+  color: #0000bf;
+  background: #fff;
+}
+
+
+
+.attribution {
+  display: none;
+}
+
+.has-text .attribution {
+  display: block;
+}
+
+.icon {
+  vertical-align: middle;
+  width: 39px;
+  height: 34px;
+}
+
+.icon.icon-email {
+  height: 36px;
+  width: 50px;
+}
