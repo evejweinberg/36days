@@ -8,7 +8,7 @@ var canvas,
       width: 960,
       height: 480,
       padding: 10,
-      background: '#fff',
+      background: '#0000bf',
       letterSize: 100,
       spaceSize: 40,
       lineSpace: 15,
@@ -165,7 +165,7 @@ function renderMessage() {
 
       // if not enough room on this line, go to the next line:
       if (x >= maxX) {
-        y += letterSize;
+        y += letterSize + lineSpace;
         x = padding;
       }
 
@@ -202,9 +202,9 @@ $(document).ready(function(){
   // type right away:
   $('.input').val('').focus();
 
-  $('.download-button').click(function() {
-    var myImage = canvas.toDataURL("image/png");      // Get the data as an image.
-    window.open(myImage);
-  });
+  //$('.download-button').click(function() {
+    // var myImage = canvas.toDataURL("image/png");      // Get the data as an image.
+    // window.open(myImage);
+  // });
 
 })
